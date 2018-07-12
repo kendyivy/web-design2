@@ -1,0 +1,285 @@
+.main{
+ width: 1400px;
+ height: 900px;
+ background-color: white;
+ border: 3px solid #003465;
+ margin: 0px auto;
+
+}
+.box{
+  width: 300px;
+  height: 400px;
+  border-top: 40px solid #396d72;
+  border-bottom: 40px solid #396d72;
+  border-right: 10px solid #396d72;
+  border-left: 10px solid #396d72;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.one{
+  width:150px;
+  height: 10px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 38px;
+  left:70px;
+}
+.small{
+  width: 30px;
+  height: 10px;
+  background-color: #e9f2ee;
+  position:relative;
+  bottom: 10px;
+  left:250px; 
+}
+.two{
+  width: 100px;
+  height: 10px;
+  background-color: #b0c6c8;
+  position: relative;
+  bottom: 20px;
+}
+.three{
+  width: 320px;
+  height: 200px;
+  background-color: #4bbe88;
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+.hexagon{
+
+    margin-top: 30px;
+    width: 125px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    left:100px;
+    top:50px;
+}  
+.hexagon:before {
+    content: " ";
+    width: 10px; height: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+.hexagon:after {
+    content: "";
+    width: 10px;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+h1{
+  color: #009cff;
+  position: relative;
+  left:25px;
+  
+}
+h2{
+  color: #009cff;
+  position: relative;
+  bottom: 15px;
+}
+.blue{
+  width:50px;
+  height:50px;
+  background-color: #d7e9ee;
+  position: relative;
+  top:140px;
+
+}
+.gray{
+  width:50px;
+  height:50px;
+  background-color: #bcccc1;
+  position: relative;
+  top: 90px;
+  left:65px;
+}
+.green{
+  width:50px;
+  height:50px;
+  background-color: #c9ecd9;
+  position: relative;
+  top: 40px;
+  left:127px;
+}
+.black{
+  width:50px;
+  height:50px;
+  background-color: #d7e9ee;
+  position: relative;
+  left: 190px;
+  bottom: 10px;
+
+}
+.pink{
+  background-color: #bcccc1;
+  width:50px;
+  height:50px;
+  position:relative; 
+  left: 257px;
+  bottom: 60px;
+
+}
+.rect{
+  width: 280px;
+  height: 13px;
+  background-color: #4cbf89;
+  position: relative;
+  left: 13px;
+  bottom: 40px;
+}
+.sqr{
+  width: 200px;
+  height: 13px;
+  background-color: #c9ebdb;
+  position: relative;
+  left:13px;
+  bottom: 30px;
+}
+.rect2{
+  width: 280px;
+  height: 13px;
+  background-color: #4cbf89;
+  position: relative;
+  left: 13px;
+  bottom: 20px;
+
+}
+.icon{
+  color: white;
+  position: relative;
+  top: 450px;
+  left:5px;
+}
+.ivy{
+  width: 150px;
+  height: 13px;
+  background-color: white;
+  position: relative;
+  top:430px;
+  left:40px;
+
+}
+.dotted1{
+   border: none;
+   border-top: 4px dotted #0b5067;
+   position: relative;
+   bottom: 300px;
+   left: 320px;
+   transform: rotate(20deg);
+
+}
+.services{
+  width:200px;
+  height: 200px;
+  background-color: #4fc48d;
+  position: relative;
+  left: 600px;
+  bottom: 350px;
+  border: 2px solid #358f66;
+  border-radius: 30px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top:30px;
+  color: white;
+
+}
+.a{
+  border: none;
+  border-top: 4px dotted #fdc20c;
+  position: relative;
+  bottom: 195px;
+  left: 530px;
+  transform: rotate(90deg);
+
+}
+.cir1{
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fdc20c;
+  border-radius: 60px;
+  position: relative;
+  left:640px;
+  bottom: 40px;
+}
+.twit i{
+  background-color: #68cae9;
+  color: #abeffd;
+  position: relative;
+  left: 20px;
+  top:25px;
+}
+h4{
+  position: relative;
+  left: 60px;
+  bottom:25px;
+  color: #3eaccb;
+  }
+  .cir2{
+    width: 100px;
+   height: 100px;
+   border: 5px solid #d0002e;
+   border-radius: 60px;
+   position: relative;
+   left: 930px;
+   bottom:199px;
+}
+.fa-facebook-official{
+  background-color: #fedf36;
+  color: #009cff;
+  position: relative;
+  left:30px;
+  top: 25px;
+
+}
+.b{
+  border: none;
+  border-top: 4px dotted #d0002e;
+  position: relative;
+  bottom:440px;
+  left: 710px;
+  transform: rotate(60deg);
+
+}
+.c{
+  border: none;
+  border-top: 4px dotted #679b2e;
+  position: relative;
+  bottom: 445px;
+  left: 370px;
+  transform: rotate(-60deg)
+
+}
+.cir3{
+  width: 100px;
+  height: 100px;
+  border: 5px solid #679b2e;
+  border-radius: 60px;
+  position: relative;
+  bottom:305px;
+  left:400px;
+
+
+
+}
+.fa-git-square{
+  
+  position:relative;
+  left:30px;
+  top:25px;
+
+}
